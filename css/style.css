@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Montserrat&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background-image: url(../image/angel-jimenez.jpg);
+  width: 100%;
+  height: 110vh;
+  background-size: cover;
+}
+
+.titulo{
+  font-size: 150px;
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding-top: 290px;
+  margin-left: 100px;
+  
+}
+ 
+.txt-music{
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  float: left;
+  margin: 135px 0 0 295px;
+}
+
+.h2{
+  font-size: 50px;
+  margin: 0;
+}
+
+.music {
+  margin: 0;
+  display: inline-block;
+  color: #000;
+  background: #fff;
+  mix-blend-mode: multiply;
+  position: relative;
+}
+
+.music:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgb(255, 85, 0), rgb(255, 0, 123));
+  mix-blend-mode: screen; 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.imgen1 .img1{
+  margin: 75px 200px 0 0;
+  float: right;
+  height: 550px;
+  width: 450px;
+}
+
+
+.boton-1{
+  font-family:'Montserrat', sans-serif;
+  background-color: rgb(251, 41, 80);
+  color: white;
+  padding: 10px 50px;
+  margin-top: 15px;
+  border-radius: 20px;
+  border: none;
+  
+}
+
+.clear{
+  clear: both;
+}
+
+
+.txt-louder{
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  float: right;
+  margin: 90px 170px 0 0;
+}
+
+h2{
+  font-size: 50px;
+  margin: 0;
+}
+
+.louder{
+  color: #000;
+  margin: 0;
+  display: inline-block;
+  background: #fff;
+  mix-blend-mode: multiply;
+  position: relative;
+}
+
+.louder:before{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgb(255, 85, 0), rgb(255, 0, 123));
+  mix-blend-mode: screen; 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.boton-2{
+  font-family:'Montserrat', sans-serif;
+  background-color: rgb(251, 41, 80);
+  color: white;
+  padding: 10px 50px;
+  margin-top: 15px;
+  border-radius: 20px;
+  border: none;
+  
+}
+
+.imgen2 .img2{
+  margin: 50px 0  0 260px;
+  float: left;
+  height: 550px;
+  width: 480px;
+}
+
+
+.clear2{
+  clear: both;
+}
+
+.txt-sound{
+  background-image:url(../image/john-raptis.png);
+  background-repeat: no-repeat;
+  height: 700px;
+  margin-top: 90px;
+  
+}
+
+.txt-sound #txt3{
+  float: right;
+  font-family:'Montserrat', sans-serif ;
+  font-size: 20px;
+  margin: 150px 190px 0 0;
+  color: white;
+  font-weight: bold
+  
+}
+
+.boton-3{
+  font-family:'Montserrat', sans-serif;
+  background-color: rgb(251, 41, 80);
+  color: white;
+  padding: 10px 50px;
+  margin-top: 15px;
+  border-radius: 20px;
+  border: none; 
+}
+ 
+footer{
+  background:linear-gradient(to right, rgb(255, 72, 55), rgb(255, 0, 123));
+  height: 300px;
+}
+
+.tabla{
+  margin-left: 350px;
+  padding: 70px 0 50px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+
+th{
+  padding: 0 50px 25px 50px;
+  text-align: left;
+}
+
+td{
+  padding: 0 50px 10px 50px;
+  text-align: left;
+}
+
+.pie{
+  float: left;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+}
+
+.get{
+  float: right;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+}
+
+.box-footer{
+  border-top: 1px solid rgba(255, 255, 255, 0.448);
+  margin: 0 300px 0 400px;
+}
